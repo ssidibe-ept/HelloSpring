@@ -1,0 +1,7 @@
+package com.groupeisi.HelloSpring.repositories;
+
+import com.groupeisi.HelloSpring.entities.Etudiant;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EtudiantRepository extends JpaRepository<Etudiant, String> {
+}

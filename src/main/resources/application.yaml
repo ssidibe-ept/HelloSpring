@@ -19,4 +19,4 @@ logging:
   level:
     com:
       groupeisi: trace
-    root: warn
+    root: info
