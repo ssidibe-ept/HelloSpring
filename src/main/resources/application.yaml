@@ -7,3 +7,16 @@ spring:
     username: root
     password: passer123
     driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      #create => drop-and-create(jpa)
+      #update => create (jpa)
+      ddl-auto: create
+
+server:
+  port: 8086
+logging:
+  level:
+    com:
+      groupeisi: trace
+    root: warn
